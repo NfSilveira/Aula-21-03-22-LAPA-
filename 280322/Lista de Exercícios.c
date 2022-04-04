@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/*Esse código tem alguns caracteres acentuados por ASCII, com os seguintes códigos:
+é= 130, à= 133, ç= 135, á= 160, í= 161, ó= 162, ú= 163, Á= 181, â= 131, ã= 198, ê= 136.
+*/
 
 void ex1() {
   int Valor, ValorAnt;
@@ -152,7 +155,7 @@ dur = (h * 3600) + (m * 60) + s;
   minsF = resto / 60;
   secsF = resto % 60;
 
-  printf("O experimento terminar%c %cs: %d:%d:%d", 160, 133 hrsF, minsF, secsF);
+  printf("O experimento terminar%c %cs: %d:%d:%d", 160, 133, hrsF, minsF, secsF);
 }
 
 void main() {
