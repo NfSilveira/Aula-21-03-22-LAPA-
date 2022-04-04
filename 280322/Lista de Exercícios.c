@@ -10,7 +10,7 @@ void ex1() {
 
   ValorAnt = Valor - 1;
 
-  printf("O antecessor do valor digitado é: %d\n\n", ValorAnt);
+  printf("O antecessor do valor digitado %c: %d\n\n", 130, ValorAnt);
 }
 
 void ex2() {
@@ -24,13 +24,13 @@ scanf("%d",&altura);
 
 area = base * altura;
 
-printf("Área do retângulo: %d\n\n", area);
+printf("%crea do ret%cngulo: %d\n\n", 181, 131, area);
 }
 
 void ex3() {
   double cotdolar, real, convert;
 
-  printf("3) Digite a cotação atual do dólar: ");
+  printf("3) Digite a cota%c%co atual do d%clar: ", 135, 198, 162);
   scanf("%lf", &cotdolar);
 
   printf("Digite o valor em reais a ser convertido: ");
@@ -38,7 +38,7 @@ void ex3() {
 
   convert = real / cotdolar;
 
-  printf("O valor convertido em dólares é : %g\n\n", convert);
+  printf("O valor convertido em d%clares %c : %g\n\n", 162, 130, convert);
 }
 
 void ex4() {
@@ -49,7 +49,7 @@ void ex4() {
 
   idade = (anos * 365) + (meses * 30) + dias;
 
-  printf("Sua idade em dias é igual a: %d\n\n", idade);
+  printf("Sua idade em dias %c igual a: %d\n\n", 130, idade);
 }
 
 void ex5() {
@@ -60,7 +60,7 @@ void ex5() {
 
   Fahren = ((9 * Celsius + 160) / 5);
   
-  printf("A temperatura inserida, convertida para Graus Fahrenheit, é igual a: %g\n\n", Fahren);
+  printf("A temperatura inserida, convertida para Graus Fahrenheit, %c igual a: %g\n\n", 130, Fahren);
 }
 
 void ex6() {
@@ -78,7 +78,7 @@ void ex6() {
 
   LiqSal = Slry - Taxes;
 
-  printf("Seu salário líquido é igual a R$%.2f, com o imposto de renda igual a R$%.2f\n\n", LiqSal, Taxes);
+  printf("Seu sal%crio l%cquido %c igual a R$%.2f, com o imposto de renda igual a R$%.2f\n\n", 160, 161, 130, LiqSal, Taxes);
     
 }
 
@@ -86,12 +86,12 @@ void ex7() {
   int CustoFab;
   float CustoFinal;
 
-  printf("7) Digite o custo de fábrica do carro: ");
+  printf("7) Digite o custo de f%cbrica do carro: ", 160);
   scanf("%d", &CustoFab);
 
   CustoFinal = CustoFab +(CustoFab * 0.28) + (CustoFab * 0.45);
 
-  printf("O custo final do carro é igual a R$%.2f\n\n", CustoFinal);
+  printf("O custo final do carro %c igual a R$%.2f\n\n", 130, CustoFinal);
 }
 
 void ex8() {
@@ -105,17 +105,17 @@ void ex8() {
   ComiVista = ValDesc * 0.05;
   ComiParc = Valor * 0.05;
 
-  printf("O valor total da sua compra é R$%g\n", ValDesc);
-  printf("Ao parcelar em 3 vezes sem juros, o valor de cada parcela é R$%g\n", Parcela);
+  printf("O valor total da sua compra %c R$%g\n", 130, ValDesc);
+  printf("Ao parcelar em 3 vezes sem juros, o valor de cada parcela %c R$%g\n", 130, Parcela);
 
-  printf("A comissão do vendedor na venda a vista é R$%g\n", ComiVista);
-  printf("A comissão do vendedor na venda parcelada é R$%g\n\n", ComiParc);
+  printf("A comissão do vendedor na venda a vista %c R$%g\n", 130, ComiVista);
+  printf("A comissão do vendedor na venda parcelada %c R$%g\n\n", 130, ComiParc);
 }
 
 void ex9() {
   float bet1, bet2, bet3, Totalbet, prize, p1, p2, p3, award1, award2, award3;
   
-  printf("9) Prêmio do sorteio: ");
+  printf("9) Pr%cmio do sorteio: ", 136);
   scanf("%f", &prize);
   printf("Investimento do primeiro apostador: ");
   scanf("%f", &bet1);
@@ -142,7 +142,7 @@ void ex10() {
   
 dur = (h * 3600) + (m * 60) + s;
 
-  printf("Digite a duração do experimento, em segundos: ");
+  printf("Digite a dura%c%co do experimento, em segundos: ", 135, 198);
   scanf("%d", &secdur);
 
   secdurT = dur + secdur;
@@ -152,7 +152,7 @@ dur = (h * 3600) + (m * 60) + s;
   minsF = resto / 60;
   secsF = resto % 60;
 
-  printf("O experimento terminará às: %d:%d:%d", hrsF, minsF, secsF);
+  printf("O experimento terminar%c %cs: %d:%d:%d", 160, 133 hrsF, minsF, secsF);
 }
 
 void main() {
