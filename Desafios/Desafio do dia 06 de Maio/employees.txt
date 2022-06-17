@@ -1,0 +1,15 @@
+Código do Funcionário: 0001
+Nome : Nicolas Freitas Silveira
+Cargo: Estagiário
+Salário: R$1300
+Endereço: Rua Joaquim Lapas Veiga, 690, Apartamento 51 A - Osasco - SP, CEP: 06040-100
+Telefone: (11)94141-6237
+Status do Funcionário: Ativo
+
+Código do Funcionário: 0002
+Nome : John Doe
+Cargo: Head de Desenvolvimento
+Salário: 15000
+Endereço: Rua dos Bobos, 0 - Rio Branco - AC, CEP: 00000-000
+Telefone: (00)00000-0000
+Status do Funcionário: Inativo
